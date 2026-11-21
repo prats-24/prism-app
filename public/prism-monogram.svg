@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 760" role="img" aria-label="PRISM">
+  <defs>
+    <linearGradient id="tri" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8CC4F8"/><stop offset="1" stop-color="#2F6CB0"/></linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3F72B2"/><stop offset="1" stop-color="#3A68A6"/></linearGradient>
+    <linearGradient id="bowl" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#9ACBF8"/><stop offset="0.55" stop-color="#5E9DDD"/><stop offset="1" stop-color="#3668A4"/></linearGradient>
+    <linearGradient id="rib" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#B9DDFA"/><stop offset="1" stop-color="#CFE8FC"/></linearGradient>
+    <linearGradient id="stem" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#86BBEF"/><stop offset="1" stop-color="#4F8CCB"/></linearGradient>
+  </defs>
+  <g transform="translate(-340 -300)">
+    <path d="M358 322H735C850 322 935 430 935 545C935 580 922 615 895 640L765 510C750 490 730 478 705 478H555Z" fill="url(#top)"/>
+    <path d="M358 322L555 478V620L358 730Z" fill="url(#tri)"/>
+    <path d="M765 510L895 640C868 718 800 768 710 768H562L358 885V805L722 618C760 600 778 560 765 510Z" fill="url(#bowl)"/>
+    <path d="M358 730L555 620H730L358 805Z" fill="url(#rib)"/>
+    <path d="M358 885L562 770V905L358 1035Z" fill="url(#stem)"/>
+  </g>
+</svg>

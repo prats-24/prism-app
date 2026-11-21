@@ -1,0 +1,597 @@
+[
+ {
+  "number": 1,
+  "title": "Python + NumPy + PyTorch",
+  "phase": "classical",
+  "resources": [
+   "CS50P",
+   "NumPy tutorials",
+   "PyTorch Learn the Basics",
+   "Karpathy Zero to Hero"
+  ],
+  "project": "Implement a small neural network from scratch + PyTorch"
+ },
+ {
+  "number": 2,
+  "title": "Linear Algebra",
+  "phase": "classical",
+  "resources": [
+   "3Blue1Brown - Essence of Linear Algebra",
+   "MIT 18.06"
+  ],
+  "project": "Implement matrix operations, projections, PCA"
+ },
+ {
+  "number": 3,
+  "title": "Probability & Statistics",
+  "phase": "classical",
+  "resources": [
+   "Khan Academy probability",
+   "Harvard Stat 110"
+  ],
+  "project": "Simulate distributions, Monte Carlo estimation"
+ },
+ {
+  "number": 4,
+  "title": "Calculus & Optimization",
+  "phase": "classical",
+  "resources": [
+   "3Blue1Brown - Essence of Calculus",
+   "MIT 18.01",
+   "Stanford CS231n optimization"
+  ],
+  "project": "Implement gradient descent, SGD, Adam"
+ },
+ {
+  "number": 5,
+  "title": "ML Fundamentals",
+  "phase": "classical",
+  "resources": [
+   "Google ML Crash Course",
+   "ISLP",
+   "Karpathy Zero to Hero"
+  ],
+  "project": "Build regression/classification models"
+ },
+ {
+  "number": 6,
+  "title": "RL Fundamentals",
+  "phase": "classical",
+  "resources": [
+   "David Silver Lecture 1",
+   "DeepMind/UCL RL lectures",
+   "Sutton & Barto Ch. 1–3"
+  ],
+  "project": "Build a tiny custom environment and manually simulate episodes"
+ },
+ {
+  "number": 7,
+  "title": "MDPs",
+  "phase": "classical",
+  "resources": [
+   "Sutton & Barto Ch. 3",
+   "David Silver MDP lecture",
+   "Stanford CS234 MDP material"
+  ],
+  "project": "GridWorld MDP"
+ },
+ {
+  "number": 8,
+  "title": "Multi-Armed Bandits",
+  "phase": "classical",
+  "resources": [
+   "Sutton & Barto Ch. 2",
+   "David Silver bandit material"
+  ],
+  "project": "Epsilon-greedy vs UCB vs Thompson Sampling"
+ },
+ {
+  "number": 9,
+  "title": "Dynamic Programming",
+  "phase": "classical",
+  "resources": [
+   "Sutton & Barto Ch. 4",
+   "David Silver Dynamic Programming",
+   "Stanford CS234"
+  ],
+  "project": "GridWorld: policy evaluation, policy iteration, value iteration"
+ },
+ {
+  "number": 10,
+  "title": "Monte Carlo RL",
+  "phase": "classical",
+  "resources": [
+   "Sutton & Barto Ch. 5",
+   "David Silver MC lecture"
+  ],
+  "project": "MC prediction + MC control on Blackjack/FrozenLake"
+ },
+ {
+  "number": 11,
+  "title": "Temporal-Difference Learning",
+  "phase": "classical",
+  "resources": [
+   "Sutton & Barto Ch. 6",
+   "David Silver TD lecture"
+  ],
+  "project": "TD(0) vs Monte Carlo"
+ },
+ {
+  "number": 12,
+  "title": "SARSA",
+  "phase": "classical",
+  "resources": [
+   "Sutton & Barto Ch. 6",
+   "Stanford CS234 Q-learning/control material"
+  ],
+  "project": "SARSA on CliffWalking"
+ },
+ {
+  "number": 13,
+  "title": "Q-Learning",
+  "phase": "classical",
+  "resources": [
+   "Sutton & Barto Ch. 6",
+   "David Silver Model-Free Control"
+  ],
+  "project": "Q-learning on FrozenLake/CliffWalking"
+ },
+ {
+  "number": 14,
+  "title": "Eligibility Traces",
+  "phase": "classical",
+  "resources": [
+   "Sutton & Barto Ch. 12",
+   "David Silver TD material"
+  ],
+  "project": "TD(l) implementation"
+ },
+ {
+  "number": 15,
+  "title": "Function Approximation",
+  "phase": "classical",
+  "resources": [
+   "Sutton & Barto Ch. 9",
+   "DeepMind/UCL",
+   "Berkeley CS285"
+  ],
+  "project": "Linear value-function approximation"
+ },
+ {
+  "number": 16,
+  "title": "Deep RL Foundations",
+  "phase": "advanced",
+  "resources": [
+   "Hugging Face Deep RL intro",
+   "Berkeley CS285 intro"
+  ],
+  "project": "Neural-network value function"
+ },
+ {
+  "number": 17,
+  "title": "DQN",
+  "phase": "advanced",
+  "resources": [
+   "DQN paper",
+   "Hugging Face DQN unit",
+   "Spinning Up / CleanRL implementation"
+  ],
+  "project": "DQN on CartPole/LunarLander"
+ },
+ {
+  "number": 18,
+  "title": "Advanced DQN",
+  "phase": "advanced",
+  "resources": [
+   "Double DQN paper",
+   "Dueling DQN paper",
+   "Prioritized Experience Replay"
+  ],
+  "project": "Build Double/Dueling DQN and compare"
+ },
+ {
+  "number": 19,
+  "title": "Policy Gradients",
+  "phase": "advanced",
+  "resources": [
+   "David Silver Policy Gradient lecture",
+   "Hugging Face Policy Gradient unit",
+   "CS285"
+  ],
+  "project": "REINFORCE from scratch"
+ },
+ {
+  "number": 20,
+  "title": "Actor-Critic",
+  "phase": "advanced",
+  "resources": [
+   "David Silver Actor-Critic",
+   "Hugging Face Actor-Critic",
+   "CS285"
+  ],
+  "project": "A2C on CartPole"
+ },
+ {
+  "number": 21,
+  "title": "Advantage & GAE",
+  "phase": "advanced",
+  "resources": [
+   "GAE paper",
+   "CS285 policy-gradient lectures",
+   "CleanRL implementation"
+  ],
+  "project": "Compare Monte Carlo advantage, TD advantage and GAE"
+ },
+ {
+  "number": 22,
+  "title": "TRPO",
+  "phase": "advanced",
+  "resources": [
+   "TRPO paper",
+   "CS285 advanced policy gradients",
+   "Spinning Up"
+  ],
+  "project": "Implement simplified TRPO"
+ },
+ {
+  "number": 23,
+  "title": "PPO",
+  "phase": "advanced",
+  "resources": [
+   "PPO paper",
+   "Hugging Face PPO",
+   "Spinning Up PPO",
+   "CleanRL PPO"
+  ],
+  "project": "PPO from scratch on CartPole/LunarLander"
+ },
+ {
+  "number": 24,
+  "title": "Continuous Control",
+  "phase": "advanced",
+  "resources": [
+   "DDPG paper",
+   "TD3 paper",
+   "SAC paper",
+   "Spinning Up"
+  ],
+  "project": "DDPG vs TD3 vs SAC on MuJoCo"
+ },
+ {
+  "number": 25,
+  "title": "Maximum-Entropy RL",
+  "phase": "advanced",
+  "resources": [
+   "SAC paper",
+   "Spinning Up SAC",
+   "CS285"
+  ],
+  "project": "Implement SAC + study entropy coefficient"
+ },
+ {
+  "number": 26,
+  "title": "Exploration",
+  "phase": "advanced",
+  "resources": [
+   "Sutton & Barto exploration material",
+   "Lilian Weng exploration article",
+   "RND paper"
+  ],
+  "project": "Compare epsilon-greedy, entropy and intrinsic reward"
+ },
+ {
+  "number": 27,
+  "title": "Reward Design",
+  "phase": "advanced",
+  "resources": [
+   "Sutton & Barto reward material",
+   "Lilian Weng Reward Hacking",
+   "Specification Gaming examples"
+  ],
+  "project": "Design an environment where reward hacking is possible"
+ },
+ {
+  "number": 28,
+  "title": "Model-Based RL",
+  "phase": "advanced",
+  "resources": [
+   "CS285 model-based lectures",
+   "Dyna paper/material",
+   "World Models/Dreamer papers"
+  ],
+  "project": "Learn dynamics model + plan in learned environment"
+ },
+ {
+  "number": 29,
+  "title": "Optimal Control",
+  "phase": "advanced",
+  "resources": [
+   "CS285 optimal control",
+   "MIT Underactuated Robotics"
+  ],
+  "project": "LQR + MPC controller"
+ },
+ {
+  "number": 30,
+  "title": "Imitation Learning",
+  "phase": "advanced",
+  "resources": [
+   "CS285 imitation learning",
+   "Behavior Cloning",
+   "DAgger",
+   "GAIL"
+  ],
+  "project": "Teach agent from demonstrations"
+ },
+ {
+  "number": 31,
+  "title": "Offline RL",
+  "phase": "advanced",
+  "resources": [
+   "CS285 offline RL",
+   "D4RL",
+   "CQL paper",
+   "IQL paper"
+  ],
+  "project": "Offline CartPole/control using CQL or IQL"
+ },
+ {
+  "number": 32,
+  "title": "Decision Transformers",
+  "phase": "advanced",
+  "resources": [
+   "Decision Transformer paper",
+   "CS285 sequence-model material"
+  ],
+  "project": "Train a tiny trajectory Transformer"
+ },
+ {
+  "number": 33,
+  "title": "Distributional RL",
+  "phase": "advanced",
+  "resources": [
+   "C51 paper",
+   "QR-DQN paper",
+   "CleanRL implementations"
+  ],
+  "project": "Implement C51/QR-DQN"
+ },
+ {
+  "number": 34,
+  "title": "Advanced Value-Based RL",
+  "phase": "advanced",
+  "resources": [
+   "Rainbow paper",
+   "individual component papers",
+   "CleanRL"
+  ],
+  "project": "Build simplified Rainbow"
+ },
+ {
+  "number": 35,
+  "title": "Multi-Agent RL",
+  "phase": "advanced",
+  "resources": [
+   "Hugging Face MARL",
+   "CS285 MARL",
+   "PettingZoo docs"
+  ],
+  "project": "2-agent competitive game"
+ },
+ {
+  "number": 36,
+  "title": "Self-Play",
+  "phase": "advanced",
+  "resources": [
+   "AlphaGo/AlphaZero papers",
+   "CS285 MARL"
+  ],
+  "project": "Self-play Tic-Tac-Toe/Connect Four"
+ },
+ {
+  "number": 37,
+  "title": "Hierarchical RL",
+  "phase": "advanced",
+  "resources": [
+   "David Silver hierarchical material",
+   "Options framework",
+   "DIAYN"
+  ],
+  "project": "Hierarchical navigation agent"
+ },
+ {
+  "number": 38,
+  "title": "Meta-RL",
+  "phase": "advanced",
+  "resources": [
+   "CS285 meta-learning",
+   "MAML",
+   "Meta-RL papers"
+  ],
+  "project": "Train agent across task distributions"
+ },
+ {
+  "number": 39,
+  "title": "POMDPs & Memory",
+  "phase": "advanced",
+  "resources": [
+   "CS234 POMDP material",
+   "recurrent-policy papers",
+   "CS285"
+  ],
+  "project": "Partially observable GridWorld with LSTM policy"
+ },
+ {
+  "number": 40,
+  "title": "World Models / Representation Learning",
+  "phase": "advanced",
+  "resources": [
+   "World Models",
+   "Dreamer",
+   "MuZero",
+   "CS285"
+  ],
+  "project": "Latent-world-model environment"
+ },
+ {
+  "number": 41,
+  "title": "RL Theory",
+  "phase": "advanced",
+  "resources": [
+   "Sutton & Barto",
+   "Szepesvári — Algorithms for RL",
+   "CS285 theory"
+  ],
+  "project": "Prove Bellman/convergence results + reproduce a theoretical experiment"
+ },
+ {
+  "number": 42,
+  "title": "RL Systems",
+  "phase": "advanced",
+  "resources": [
+   "Gymnasium",
+   "CleanRL",
+   "Stable-Baselines3",
+   "JAX/RLax"
+  ],
+  "project": "Build vectorized environments + parallel rollouts"
+ },
+ {
+  "number": 43,
+  "title": "RL Experimentation",
+  "phase": "advanced",
+  "resources": [
+   "CleanRL",
+   "RL reproducibility literature",
+   "benchmark papers"
+  ],
+  "project": "Run 5–10 seeds, confidence intervals, ablations"
+ },
+ {
+  "number": 44,
+  "title": "RL Environments",
+  "phase": "advanced",
+  "resources": [
+   "Gymnasium custom-env docs",
+   "PettingZoo if multi-agent",
+   "benchmark design papers"
+  ],
+  "project": "Build a fully documented custom RL environment"
+ },
+ {
+  "number": 45,
+  "title": "RLHF",
+  "phase": "llm_research",
+  "resources": [
+   "InstructGPT paper",
+   "preference modeling",
+   "PPO for LLMs"
+  ],
+  "project": "Tiny language-model RLHF pipeline"
+ },
+ {
+  "number": 46,
+  "title": "Preference Learning",
+  "phase": "llm_research",
+  "resources": [
+   "Bradley-Terry model",
+   "DPO paper",
+   "IPO/KTO papers"
+  ],
+  "project": "Train a preference model + DPO baseline"
+ },
+ {
+  "number": 47,
+  "title": "RLVR",
+  "phase": "llm_research",
+  "resources": [
+   "RLVR papers",
+   "verifier-based reasoning papers",
+   "current DeepSeek/other open research"
+  ],
+  "project": "Small LLM task with programmatic verifier reward"
+ },
+ {
+  "number": 48,
+  "title": "GRPO",
+  "phase": "llm_research",
+  "resources": [
+   "DeepSeekMath paper",
+   "GRPO implementations",
+   "compare with PPO"
+  ],
+  "project": "Train a small model with GRPO"
+ },
+ {
+  "number": 49,
+  "title": "Modern LLM RL",
+  "phase": "llm_research",
+  "resources": [
+   "PPO",
+   "GRPO",
+   "RLOO",
+   "REINFORCE variants",
+   "DAPO/other recent methods"
+  ],
+  "project": "Compare several LLM-RL algorithms on the same verifier"
+ },
+ {
+  "number": 50,
+  "title": "Reward Hacking in LLMs",
+  "phase": "llm_research",
+  "resources": [
+   "Lilian Weng Reward Hacking",
+   "specification gaming",
+   "recent LLM reward-hacking papers"
+  ],
+  "project": "Create adversarial reward/verifier exploits"
+ },
+ {
+  "number": 51,
+  "title": "Agent RL",
+  "phase": "llm_research",
+  "resources": [
+   "POMDPs",
+   "tool-use agents",
+   "RL for agents",
+   "verifier environments"
+  ],
+  "project": "Train an agent to solve multi-step tool-use tasks"
+ },
+ {
+  "number": 52,
+  "title": "Safe RL",
+  "phase": "llm_research",
+  "resources": [
+   "Constrained MDPs",
+   "Safe RL literature",
+   "CVaR/risk-sensitive RL"
+  ],
+  "project": "Agent maximizing reward under safety constraints"
+ },
+ {
+  "number": 53,
+  "title": "RL Research Methodology",
+  "phase": "llm_research",
+  "resources": [
+   "Read benchmark papers",
+   "reproduce one paper",
+   "perform ablations",
+   "formulate a new hypothesis"
+  ],
+  "project": "Full paper reproduction"
+ },
+ {
+  "number": 54,
+  "title": "Research-Level RL",
+  "phase": "llm_research",
+  "resources": [
+   "Berkeley CS285",
+   "latest papers on arXiv",
+   "reproduce",
+   "modify",
+   "propose"
+  ],
+  "project": "Novel RL algorithm/environment paper"
+ }
+]
